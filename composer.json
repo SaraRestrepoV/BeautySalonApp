@@ -1,0 +1,22 @@
+{
+    "name": "srest/app-salon_php_mvc_js_sass",
+    "description": "Proyecto PHP, Model view controller, SQL, SASS, JS y Gulp",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Srest\\AppSalonPhpMvcJsSass\\": "src/",
+            "MVC\\" : "./",
+            "Controllers\\": "./controllers",
+            "Model\\": "./models",
+            "Classes\\" : "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "Sara Restrepo Vélez"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6"
+    }
+}
